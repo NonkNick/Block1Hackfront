@@ -1,0 +1,100 @@
+#header-bar {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+}
+#header-bar nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#header-bar a {
+
+    color: #3f3f3f;
+
+    text-decoration: none;
+    height: 100%;
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+#header-bar a:hover {
+    background-color: #ededed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*probeerde het responsive te maken maar niet heel leuk in pure css*/
+main {
+    margin-top: 0;
+    /*padding-left: 200px;*/
+    /*padding-right: 200px;*/
+    padding-left: clamp(8px, 8vw, 80px);
+    padding-right: clamp(8px, 8vw, 80px);
+
+    top: 0;
+    /*background-color: #fbfbfb;*/
+
+}
+main img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer_logo {
+    width: 100px;
+    height: auto;
+
+}
+
+.footer {
+    /*position: fixed;*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    /*box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+article {
+    /*margin: 20px 0;*/
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    /*border-radius: 8px;*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+}
